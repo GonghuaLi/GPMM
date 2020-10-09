@@ -12,7 +12,7 @@ Email: ligonghua@mail.kiz.ac.cn
 ## Part II: Required datasets
 1). Curated Recon3. Curated global human metabolic reconstruction (Reocn3). This file can be found in: './data/ Recon3_v1.mat'  
 2). Expression dataset. This file should be saved in: './data/'  
-3). Nutrition uptake file. In this case, the nutrition uptake of human muscle can be found in: './data/'  
+3). Nutrition uptake file. In this case, the nutrition uptake can be found in: './data/'  
 
 
 ## Part III: set parameters for GPMM
@@ -27,7 +27,7 @@ cobrasolver = 'cplex';
 Use FastMM  to accelerate metabolic modeling?  yes or no  
 isFastMM = 'no';  
 
-Path of nutrition uptake file, the default is muscle nutrition uptake:  
+Path of nutrition uptake file:  
 exchangeFile = './data/exchange_rxns_white_blood_final_recentmodel.txt';  
 
 Unit of nutrition uptake, recently support two types: uM/100ml/min  or mM/L/min,   
