@@ -1,5 +1,5 @@
-# GPMM
-Genome-wide precision metabolic modeling  
+# SPMM
+System-level precision metabolic modeling  
 Gonghua Li. Ph.D  
 Email: ligonghua@mail.kiz.ac.cn  
 
@@ -15,13 +15,13 @@ Email: ligonghua@mail.kiz.ac.cn
 3). Nutrition uptake file. In this case, the nutrition uptake can be found in: './data/'  
 
 
-## Part III: set parameters for GPMM
+## Part III: set parameters for SPMM
 All of the parameters can be set in the file of  **"pars.txt"** . These parameters contains:  
 
 Path of curated Recon3 file, the default is:  
 curatedRecon3 = './data/Recon3_v1.mat';  
 
-Cobra optimization solver, GPMM supports  'cplex'  and 'gurobi5'  
+Cobra optimization solver, SPMM supports  'cplex'  and 'gurobi5'  
 cobrasolver = 'cplex';  
 
 Use FastMM  to accelerate metabolic modeling?  yes or no  
@@ -36,7 +36,7 @@ uptakeUnite = 'mM/L/min';
 Path of expression file,   
 expressionFile = './data/protein_coding_matrix.txt';  
 
-Expression type, this version of GPMM supports three expression data type:  
+Expression type, this version of SPMM supports three expression data type:  
   RMA: microarray, normalized by RMA method  
   FPKM:  RNAseq, normalized by FPKM method  
   RSEM:  RNAseq, normalized by RSEM method  
@@ -51,17 +51,17 @@ fva_threading = '6';
 Number of threading for MCMC sampling. MCMC sampling is very time costing, especially for hundreds and thousands of samples. Set multiple threading will largely save time. Default is 4, but you can set more, for example , cpu = '8' or cpu = '16'.  
 cpu = '4';  
 
-## Part IV: Run GPMM
-After you have prepared the datasets, and set proper parameters, Run GPMM will be very easy. You just need to type one command in matlab command window and wait for the results.  
+## Part IV: Run SPMM
+After you have prepared the datasets, and set proper parameters, Run SPMM will be very easy. You just need to type one command in matlab command window and wait for the results.  
 
 ```matlab
-run_GPMM
+run_SPMM
 ```
 
 This command will automatically reconstruct the personalized metabolic models and implement the Markov Chain Monte Carlo(MCMC) sampling.  
 
-## Part V: Interpret the GPMM results.
-The GPMM results are saved in two subdirectories: **./Mat_PQM and ./out**.  
+## Part V: Interpret the SPMM results.
+The SPMM results are saved in two subdirectories: **./Mat_PQM and ./out**.  
   ./Mat_PQM subdirectory saved the reconstructed individual models where the model names are the same as the sample names described in expression matrix. This subdirectory also saved the result of MCMC sampling results for each individual where the name is begin with "MCMC".  
   ./out subdirectory saved the summary results from the ./Mat_PQM and is ready for further statistical analysis.    
    'PQMM_fluxRxnsMax.txt',' PQMM_fluxRxnsMin.txt',  'PQMM_fluxRxnsMean.txt' and 'PQMM_fluxRxnsMedian.txt'  represent matrix of maximum, minimum, mean and median fluxes for each sample using the MCMC sampling methods, respectively.   
