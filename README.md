@@ -3,6 +3,9 @@ Genome-wide precision metabolic modeling
 Gonghua Li. Ph.D  
 Email: ligonghua@mail.kiz.ac.cn  
 
+# Citation
+Li, G. H., Han, F., Xiao, F. H., Gu, K. S. Y., Shen, Q., Xu, W., ... & Kong, Q. P. (2022). System‐level metabolic modeling facilitates unveiling metabolic signature in exceptional longevity. Aging Cell, e13595.
+
 ## Part I: Required software and toolbox
 1). Install MATLAB. MATLAB is the software environment for engineers and scientists. You can get detailed installation information by visiting http://www.mathworks.com/products/matlab/  
 2). Install Cobra toolbox in Matlab.  Cobra toolbox is a matlab toolbox that used to implement metabolic modeling. Users can download and install this toolbox from:  https://opencobra.github.io/cobratoolbox/  
