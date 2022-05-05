@@ -8,7 +8,9 @@ Li, G. H., Han, F., Xiao, F. H., Gu, K. S. Y., Shen, Q., Xu, W., ... & Kong, Q. 
 
 ## Part I: Required software and toolbox
 1). Install MATLAB. MATLAB is the software environment for engineers and scientists. You can get detailed installation information by visiting http://www.mathworks.com/products/matlab/  
-2). Install Cobra toolbox in Matlab.  Cobra toolbox is a matlab toolbox that used to implement metabolic modeling. Users can download and install this toolbox from:  https://opencobra.github.io/cobratoolbox/. Alternatively, you could also download and install our pre-compiled version of cobra:https://github.com/GonghuaLi/extern_tools/blob/main/cobratoolbox-3.0.4_precompiled.rar
+
+2). Install Cobra toolbox in Matlab.  Cobra toolbox is a matlab toolbox that used to implement metabolic modeling. Users can download and install this toolbox from:  https://opencobra.github.io/cobratoolbox/. Alternatively, you could also download and install our pre-compiled version of cobra:https://github.com/GonghuaLi/extern_tools/blob/main/cobratoolbox-3.0.4_precompiled.rar.
+
 3). Optimal:  Install FastMM package. FastMM is a C/C++ package to implement Flux viarly analysis (FVA) and genome-wide Knock-in and  knockout analysis of constraint-based metabolic models.  Users can download and install this package from:  https://github.com/GonghuaLi/FastMM/. Make sure the binaries of FastMM are in your path environment.   
 
 
