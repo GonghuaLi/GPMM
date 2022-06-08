@@ -6,6 +6,9 @@ Email: ligonghua@mail.kiz.ac.cn
 ## Citation
 Li, G. H., Han, F., Xiao, F. H., Gu, K. S. Y., Shen, Q., Xu, W., ... & Kong, Q. P. (2022). **System‐level metabolic modeling facilitates unveiling metabolic signature in exceptional longevity**. Aging Cell, e13595.
 
+## Permission
+GPMM is free for academic research only. If you want to use GPMM for commercial purposes, please contact Dr.Gonghua Li and obtain his permission.
+
 ## Part I: Required software and toolbox
 1). Install MATLAB. MATLAB is the software environment for engineers and scientists. You can get detailed installation information by visiting http://www.mathworks.com/products/matlab/  
 
