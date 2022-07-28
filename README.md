@@ -68,6 +68,12 @@ run_GPMM
 
 This command will automatically reconstruct the personalized metabolic models and implement the Markov Chain Monte Carlo(MCMC) sampling.  
 
+After the MCMC sampling was completed, you should type another command in matlab windows to summarize the GPMM results.
+
+```matlab
+summarize_PQMM_result
+```
+
 ## Part V: Interpret the GPMM results.
 The GPMM results are saved in two subdirectories: **./Mat_PQM and ./out**.  
   ./Mat_PQM subdirectory saved the reconstructed individual models where the model names are the same as the sample names described in expression matrix. This subdirectory also saved the result of MCMC sampling results for each individual where the name is begin with "MCMC".  
