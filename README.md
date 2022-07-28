@@ -77,6 +77,7 @@ summarize_PQMM_result
 ## Part V: Interpret the GPMM results.
 The GPMM results are saved in two subdirectories: **./Mat_PQM and ./out**.  
   ./Mat_PQM subdirectory saved the reconstructed individual models where the model names are the same as the sample names described in expression matrix. This subdirectory also saved the result of MCMC sampling results for each individual where the name is begin with "MCMC".  
+  
   ./out subdirectory saved the summary results from the ./Mat_PQM and is ready for further statistical analysis.    
    'PQMM_fluxRxnsMax.txt',' PQMM_fluxRxnsMin.txt',  'PQMM_fluxRxnsMean.txt' and 'PQMM_fluxRxnsMedian.txt'  represent matrix of maximum, minimum, mean and median fluxes for each sample using the MCMC sampling methods, respectively.   
    
